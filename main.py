@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 from utils import risk,eval_str,get_data
 
 data=get_data()
-return=eval_str(data,assets,lookback,stop_loss, target)
+Returns=eval_str(data,assets,lookback,stop_loss, target)
+print(f'Return over a peroid : {Returns}')
 
 for asset, strategy in strategies.items():
   print(f'{asset}\n{strategy.positions["holdings"].value_counts()}')
