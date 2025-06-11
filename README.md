@@ -1,5 +1,4 @@
 # Breakout-Trading-Strategy--Analysis
-# Breakout Trading Strategy (Python)
 
 This project implements a breakout trading strategy on Indian stock market data using TVDataFeed, Pandas TA, and Matplotlib for analysis and visualization.
 
