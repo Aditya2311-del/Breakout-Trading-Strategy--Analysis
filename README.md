@@ -23,5 +23,5 @@ pip install -r requirements.txt
 - Uses Sharpe ratio for position weightage (i.e. assets allocation weightage)
 
 ## Author
-Aditya Dharpal
+Aditya Dharpal \
 linkedin :www.linkedin.com/in/aditya-r-dharpal-966068312
