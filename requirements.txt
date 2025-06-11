@@ -1,0 +1,5 @@
+git+https://github.com/rongardF/tvdatafeed.git
+pandas
+pandas_ta
+matplotlib
+numpy==1.24.4
