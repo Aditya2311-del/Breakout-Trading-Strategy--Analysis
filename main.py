@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 %matplotlib inline
 from utils import risk,eval_str,get_data
+from BreakoutStrategy import breakoutStrategy
 
 data=get_data()
 Returns=eval_str(data,assets,lookback,stop_loss, target)
