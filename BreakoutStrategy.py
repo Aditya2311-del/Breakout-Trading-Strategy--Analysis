@@ -1,3 +1,7 @@
+from tvDatafeed import TvDatafeed,Interval
+import pandas as pd
+import pandas_ta as ta
+
 class breakoutStrategy():
     def __init__(self,data,stop_loss,target,lookback):
         self.data=data
