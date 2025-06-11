@@ -28,7 +28,7 @@ class breakoutStrategy():
         return data_["close"].iloc[-1]>((1+self.target)*data_["close"].iloc[-2] + 0.5* self.ATR_(data_))
 
     def run(self):
-       for day in range(self.lookback,data.shape[0]):
+       for day in range(self.lookback,self.data.shape[0]):
           df=self.data.iloc[:day]
           if self.Stop_loss(df):
             self.positions['holdings'][day]=-1
