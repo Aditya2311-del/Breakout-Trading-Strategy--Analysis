@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ##  How to Run
 1. Install dependencies
-2. Run:
+2. Run: python main.py
 
 ## Features
 - Fetches data using TVDataFeed API
