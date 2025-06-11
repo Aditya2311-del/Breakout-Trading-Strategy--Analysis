@@ -7,7 +7,7 @@ from BreakoutStrategy import breakoutStrategy
 assets = ['RELIANCE', 'TCS', 'HDFCBANK', 'ICICIBANK', 'BHARTIARTL']
 lookback = 20
 stop_loss = 0.05
-target = 0.10
+target = 0.05
 
 data = get_data(assets)
 
