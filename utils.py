@@ -1,4 +1,5 @@
 from tvDatafeed import TvDatafeed,Interval
+from BreakoutStrategy import breakoutStrategy
 import matplotlib.pyplot as plt
 import pandas as pd
 import pandas_ta as ta
