@@ -193,11 +193,12 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Data files (if not versioned intentionally)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.csv
-*.xlsx
-*.xls
+.env
+.DS_Store
+.ipynb_checkpoints/
 
-# Results / output folders
-results/
-outputs/
